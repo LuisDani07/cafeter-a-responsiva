@@ -173,3 +173,22 @@ body{
         padding:1rem 2rem;
     }
 }
+@media(max-width:991px){
+    #menu-btn{
+        display:inline-block;
+    }
+    .header .navbar{
+        position:absolute;
+        top:100%; right:-100%;
+        background:#fff;
+        width:30rem;
+        height:100vh;
+    }
+    .header .navbar a{
+        color:var(--black);
+        display: block;
+        margin:1.5rem;
+        padding:.5rem;
+        font-size: 2rem;
+    }
+}
